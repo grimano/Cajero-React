@@ -1,0 +1,1 @@
+export const UrlApi = 'https://localhost:44305/';
