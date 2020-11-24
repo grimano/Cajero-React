@@ -88,7 +88,7 @@ export const validarBalance = (idtarjeta) => async (dispatch) => {
             body: JSON.stringify(data),
             headers: {
                 "Content-Type": "application/json"
-            },
+            },  
         };
 
         const respuesta = await fetch(`${UrlApi}api/Movimiento`, peticion);
